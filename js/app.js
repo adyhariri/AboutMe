@@ -4,8 +4,13 @@ var name = prompt('what is your name ? ');
 alert('hello '+ name +' let us play guessing game ');
 console.log(name);
 alert('your answer must be y/n or yes/no');
+
+//QUESTION 1
 var score = 0;
-var ans = prompt('is my age more than 20 ?').toLowerCase();
+var ans='';
+
+function question1(){
+ans = prompt('is my age more than 20 ?').toLowerCase();
 if (ans == 'y' || ans == 'yes') {
     alert('you are correct');
     score ++;
@@ -14,6 +19,10 @@ if (ans == 'y' || ans == 'yes') {
 else
     alert('your answer wrong');
 console.log(ans);
+}
+question1();
+
+
 ans = prompt('am i from syria ?').toLowerCase();
 if (ans == 'y' || ans == 'yes')
 {
