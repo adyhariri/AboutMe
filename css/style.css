@@ -1,0 +1,49 @@
+header {
+  height: 15vh;
+   
+  
+
+}
+h1{
+    border: black solid 2px;
+    background-color: blanchedalmond;
+    margin: 1em;
+    text-align: center;
+}
+section h3{
+    background-color: black;
+    color : whitesmoke ;
+    padding: 10px;
+    margin: 10px;
+
+}
+section p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: wheat;
+  margin: 15px;
+    
+}
+section ol {
+    background-color: rgb(211, 209, 209);
+    margin: 10px;
+
+}
+section ul {
+    background-color: rgb(211, 209, 209);
+    margin: 10px;
+}
+ol li{
+    color: black;
+    margin: 5px;
+    width: 25%;
+}
+ul li{
+    color: black;
+    margin: 5px;
+    width: 95%;
+
+}
+
+h4 {
+    text-align: center;
+}
