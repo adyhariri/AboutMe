@@ -58,11 +58,11 @@ for (var j = 5; j >= 0; j--) {
         if (stringAns===cars[t]) {
             alert('your answer correct');
             score++;
-            j=-1;
             break;
         }
         else 
         {
+            t=cars.length+1;
             alert('your answer not correct , you have ' + j + 'chance now');
             
         }
